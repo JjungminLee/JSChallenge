@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+
+   <div id="Container">
+        <div id="firstPage" >
+            <h1 id="clock">00:00</h1>
+            <h1 id="Hello">Hello!</H1>
+            <form id="login-form">
+                <input id="input"
+                    required
+                    maxlength="15"
+                    placeholder="WHO.ARE.U"
+                >
+                <button id="loginButton">Log-In</button>
+            </form>
+
+            
+        </div>
+        <div id="secondPage" class="hidden" >
+            <h2 id="header"></h2>
+            <div id="weather">
+                <span></span>
+                <span></span>
+            </div>
+            <div id="To-Do">
+                <form id="todo-form">
+                    <input
+                    id="todoInput" 
+                    type="text"
+                    placeholder="Write you TODO"
+                    required>
+                    <button id="todoButton">➡</button>
+                    
+                </form>
+                <ul id="todo-list"></ul>
+
+            
+
+            </div>
+
+        
+            <div id="quotes">
+
+            </div>
+            <div id="Image">
+
+            </div>
+            <div id="music">
+                <iframe width="580" height="400" src="https://www.youtube.com/embed/AmmFD2OIs_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                
+            </div>
+            <div id="icon"
+                  
+              
+            
+            
+                
+           
+
+        </div>
+   </div>
+    
+   
+    <script src="./JS/first.js"></script>
+    <script src="./JS/todo.js"></script>
+    <script src="./JS/weather.js"></script>
+    <script src="./JS/background.js"></script>
+    <script src="./JS/quotes.js"></script>
+    
+</body>
+</html>
