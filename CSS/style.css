@@ -23,6 +23,7 @@ body{
 }
 
 #Hello{
+    font-size: x-large;
     margin-left: 180px;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
@@ -109,6 +110,7 @@ body{
 }
 
 #header{
+    font-size: x-large;
     display: inline-block;
     position: absolute;
     color:white;
@@ -137,7 +139,7 @@ body{
     top:400px;
     left:40px;
     background-color: rgb(207, 205, 200,0.5);
-    width:20rem;
+    width:480px;
     height:250px;
    
    
@@ -166,7 +168,7 @@ body{
     list-style: none;
 }
 #quotes{
-    
+    font-size: large;
     position:absolute;
     top:95px;
     right:30px;
