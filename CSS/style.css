@@ -23,7 +23,7 @@ body{
 }
 
 #Hello{
-    font-size: x-large;
+    font-size: xx-large;
     margin-left: 180px;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
@@ -110,7 +110,7 @@ body{
 }
 
 #header{
-    font-size: x-large;
+    font-size: xx-large;
     display: inline-block;
     position: absolute;
     color:white;
@@ -139,8 +139,9 @@ body{
     top:400px;
     left:40px;
     background-color: rgb(207, 205, 200,0.5);
-    width:480px;
+    width:520px;
     height:250px;
+    box-shadow: 0 0 10px;
    
    
     
@@ -177,16 +178,17 @@ body{
     padding: 15px;
     font-family: 'Playfair Display', serif;
     background-color:rgb(207, 205, 200,0.5) ;
+    box-shadow: 0 10px 10px -5px;
 
 }
 #Image{
     position:absolute;
     top:96px;
-    
+    box-shadow: 5px 5px 10px;
     left:40px;
-    width:480px;
+    width:520px;
     height:250px;
-    background-size:480px;
+    background-size:520px;
 }
 
 #music{
@@ -197,4 +199,6 @@ body{
     top:200px;
     right:35px;
     background-color: rgb(207, 205, 200,0.5);
+    box-shadow: 5px 5px 20px;
+
 }
