@@ -4,7 +4,8 @@ const loginInput=loginForm.querySelector("input");
 const clock=document.querySelector("#clock");
 const secondPage=document.querySelector("#secondPage");
 const header=document.querySelector("#header");
-const HIDDEN="hidden";
+const HIDDEN="hidden"; //visibility
+
 const USERNAME_KEY="userName";
 function clockFunc(){
     const today=new Date();
@@ -33,6 +34,7 @@ const savedUserName=localStorage.getItem(USERNAME_KEY);
 if(savedUserName===null){
     firstPage.classList.remove(HIDDEN); //localstorage에 없을때는 firstPage을  화면에 띄우기
     secondPage.classList.add(HIDDEN);
+   
     loginForm.addEventListener("submit",onLoginSubmit);
     clockFunc();
     setInterval(clockFunc,1000);
